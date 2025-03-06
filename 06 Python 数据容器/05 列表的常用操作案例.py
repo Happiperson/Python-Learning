@@ -1,0 +1,13 @@
+student_list=[21,25,21,23,22,20]
+print(student_list)
+student_list.append(31)
+print(student_list)
+student2_list=[29,33,30]
+student_list.extend(student2_list)
+print(student_list)
+find1=student_list[0]
+print(find1)
+find2=student_list[-1]
+print(find2)
+index=student_list.index(31)
+print(index)
